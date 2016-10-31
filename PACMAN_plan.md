@@ -1,7 +1,13 @@
 # PACMAN
 
-Pacman will strive for big biscuits. 
+Pacman modes: 
+1. Strive for big biscuits
+2. Chase and eat as many ghosts as possible
+3. Avoid ghosts
 
+Conditions for different modes:
+
+> Default - Pacman will strive for big biscuits. 
 > If the Pacman detects ghosts being within a certain distance, the Pacman will avoid ghosts.
 
 > If the Pacman eats big biscuits, it will chase the closest ghost. 
@@ -10,8 +16,14 @@ Pacman will strive for big biscuits.
 
 # GHOSTS 
 
-It will strive for Pacman finding the shortest path to him.
+Ghost modes: 
+1. Chase Pacman
+2. Protect big biscuit
+3. Avoid Pacman
 
+Conditions for different modes:
+
+> Default - It will strive for Pacman finding the shortest path to him.
 > If the ghost is a certain distance from biscuit, it will just go and protect the biscuit. 
 >> If Pacman is a certain distance away from biscuit, it will resume striving for Pacman. 
 
